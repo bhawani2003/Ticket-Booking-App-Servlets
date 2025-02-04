@@ -19,7 +19,7 @@ import jakarta.servlet.http.HttpServletResponse;
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	String url = "jdbc:mysql://localhost:3306/";
+	String url = "jdbc:mysql://localhost:3306/TicketApp";
 	String db_username = "root";
 	String db_password = "";
 
